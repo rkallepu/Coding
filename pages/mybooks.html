@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My books</title>
+    <!--Meta tag for a responsive page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="../styles/mybooks.css" rel="stylesheet" type="text/css"/>
+    <link href="../styles/mybooks-mobile.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="main_container">
+        <div class="heading">
+            <div>My books</div>
+        </div>
+        <nav>
+            <ul>
+                <li>El Pooch</li>
+                <li>The Flight</li>
+                <li>Top 10 Australian Beaches</li>
+            </ul>
+        </nav>
+        <div id="books_content">
+            <div id="content_left">
+                <div class="new_books">
+                    <div id="books_heading">Welcome back!</div>
+                    <div id="text_content">
+                        <div class="books_text">It's been a while.</div>
+                        <div class="books_text">Read any new books lately?</div>
+                    </div>
+                    <hr>
+                    <div class="block_links">
+                        <p>NO</p>
+                        <p class="style_color">YES</p>
+                    </div>
+                </div>
+                <div id="add_newbook" class="block_left">
+                    <h3>Add a new book</h3>
+                    <input type="text" name="bookname" placeholder="Name of the Book"/>
+                    <input type="text" name="author" placeholder="Author"/>
+                    <hr>
+                    <div class="block_links">
+                        <p class="style_color">Add</p>
+                        <p>Cancel</p>
+                    </div>
+                </div>
+                <div class="block_left">
+                    <div class="block_img">
+                        <img src="../images/dog.png" alt="El Pooch">
+                    </div>
+                    <section>
+                        <div class="text">El Pooch</div>
+                        <div class="subtext">By Alex Nelson</div>
+                        <hr>
+                        <div class="block_links">
+                            <p>FREE SAMPLE</p>
+                            <p class="style_color">REVIEW</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="block_left">
+                    <div class="block_img">
+                        <img src="../images/areoplane.png" alt="The flight">
+                    </div>
+                    <section>
+                        <div class="text">The Flight</div>
+                        <div class="subtext">By Scott Masterson</div>
+                        <hr>
+                        <div class="block_links">
+                            <p>FREE SAMPLE</p>
+                            <p class="style_color">REVIEW</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="content_right">
+                <div class="block_right">
+                    <div>
+                        <img src="../images/beach_house.png" alt="Top 10 Australian Beaches">
+                    </div>
+                    <div class="subtext books_text">Number 10</div>
+                    <div class="books_text">Whitehaven Beach</div>
+                    <div class="books_text">Whitsunday Island, whitsunday Islands</div>
+                    <hr>
+                    <div class="block_links">
+                        <p>SHARE</p>
+                        <p class="style_color">EXPLORE</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    <script src="../scripts/mybooks.js"></script>
+</body>
+</html>

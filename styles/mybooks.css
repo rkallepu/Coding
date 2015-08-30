@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.heading{
+    background-color: #EC1661;
+    color: white;
+    padding: 1em;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+nav{
+    display: block;
+    padding: 1em;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul > li{
+    float: left;
+    margin-right: 0.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em;
+}
+#books_content{
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+    padding: 1em;
+    width: 100%;
+}
+.new_books{
+    background-color: white;
+    width: 90%;
+    border-radius: 0.2em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+#books_heading{
+    color: #EC1661;
+    font-size: 2.2em;
+    padding: 0.5em;
+}
+#text_content{
+    padding: 0.3em;
+    margin-left: 0.5em;
+    margin-bottom: 4em;
+}
+.books_text{
+    padding: 0.2em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+hr{
+    margin: 2em -1.2em 1.2em;
+    border: 0;
+    border-top: 0.15em solid #E3E3E3;
+}
+.style_color{
+    color: #FFAC30;
+}
+#content_left{
+    float:left;
+    width: 50%;
+}
+#content_left::after, #content_right::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+#content_right{
+    overflow: hidden;
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+}
+.block_right{
+    border-radius: 0.2em;
+    background-color: white;
+}
+.block_left{
+    background-color: white;
+    margin-bottom: 0.5em;
+    width: 95%;
+    border-radius: 0.2em;
+}
+section{
+    float: right;
+    width: 67%;
+    padding: 0.5em;
+    margin-top: -15em;
+}
+.text{
+    font-size: 2em;
+    padding: 0.1em;
+}
+.subtext{
+    font-size: 1.5em;
+    padding: 0.1em;
+    color: #8E8E8E;
+}
+.block_links  p{
+    width: 47%;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 0.2em;
+}
+.books_text{
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin-left: 0.2em;
+}
+#add_newbook{
+    display: none;
+}
+#add_newbook{
+    background-color: white;
+}
+#add_newbook h3{
+    text-align: center;
+    padding: 0.5em;
+}
+#add_newbook input[type=text]{
+    display: block;
+    width: 40%;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+#add_newbook .block_links{
+    margin-left: 10em;
+}

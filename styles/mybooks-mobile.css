@@ -1,0 +1,45 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+        font-size: 0.6em;
+    }
+    img{
+        max-width: 100%;
+    }
+    .block_img img{
+        width: 40%;
+    }
+    section{
+        width: 54%;
+    }
+    nav{
+        display: none;
+    }
+    #content_right, #content_left{
+        float: none;
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    div.heading{
+        background-image: url('../images/icons/ic_menu_24px.svg');
+        background-repeat: no-repeat;
+        background-position: 1em;
+    }
+    div.heading > div{
+        margin-left: 2em;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav ul > li{
+        float:none;
+        position: relative;
+        border-bottom: 0.1em solid #E3E3E3;
+    }
+    nav ul > li:last-child{
+        border: none;
+    }
+}
